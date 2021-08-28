@@ -1,7 +1,7 @@
 # Leaky Blinders
 
 ### Description :
-Get the flag, by order of the leaky fookin blinders..
+Get the flag, by order of the leaky fookin blinders..  
 `nc 52.149.135.130 4869`
 
 
