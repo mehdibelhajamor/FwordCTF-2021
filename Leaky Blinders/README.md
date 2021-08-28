@@ -1,6 +1,8 @@
 # Leaky Blinders
 
-### *Description :*
+### Description :
+Get the flag, by order of the leaky fookin blinders..
+`nc 52.149.135.130 4869`
 
 
 We were given a source code :
