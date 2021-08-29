@@ -14,7 +14,7 @@ Giving a random ticket and by doing some maths we can recover the value of `y` :
 
 And so, the value of `secret` :
 
-![CodeCogsEqn (4)](https://user-images.githubusercontent.com/62826765/131255558-3bad1771-c3ad-4b53-9d25-a06e413f85fd.gif)
+![CodeCogsEqn (5)](https://user-images.githubusercontent.com/62826765/131256289-343e1c2d-999c-474b-a7a9-53ed8d76c6ce.gif)
 
 Then, we can generate a ticket for the word "Boobmastic" and watch the movie.
 
