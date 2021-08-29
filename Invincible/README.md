@@ -12,7 +12,8 @@ We notice that both *Add* and *Multiply* operations are independent of `b`. Also
 Since we have control on a point we can go through the Invalid Curve Attack.
 
 By modifying `b` we can get another curve that may have an order with a small factor.  
-For exemple, `b = 3` generates a curve with order `115792089210356248762697446949407573529995394580452997270780266901612618829008` that had a small factor 3. So we can generate a point with order 3.  
+For exemple, `b = 3` generates a curve with order `115792089210356248762697446949407573529995394580452997270780266901612618829008` that had a small factor 3.
+So we can generate a point with order 3.  
 Here's a [Sagemath](https://www.sagemath.org/) script :
 ```python
 p = 0xffffffff00000001000000000000000000000000ffffffffffffffffffffffff
