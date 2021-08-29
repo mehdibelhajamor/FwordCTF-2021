@@ -10,7 +10,7 @@
 ### Solution : 
 Giving a random ticket and by doing some maths we can recover the value of `y` :
 
-![CodeCogsEqn (1)](https://user-images.githubusercontent.com/62826765/131235239-0cf2e8cb-10c5-4845-927b-dcfff79ce604.gif)
+![CodeCogsEqn (3)](https://user-images.githubusercontent.com/62826765/131255494-87324103-c3de-4968-8787-8ed538bc335b.gif)
 
 And so, the value of `secret` :
 
