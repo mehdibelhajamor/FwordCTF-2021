@@ -19,8 +19,7 @@ with `h = Hint(R, pk, m)` and `h' = Hint(R', pk, m)`
 
 Here `r` generates as follow `Hint(h[32:] + hmac.new(m, h, digestmod=hashlib.sha512).digest())` and that made it more secure since we will always get a unique value `r` for every signed message. Or is it really secure ?
 
-Basically, There's a bug in HMAC that if the key is longer than the block size, it's hashed with the HMAC cryptographic hash, then appended with zeros to fit the single block. And that caused a collisions.  
-Read more about [Breaking HMAC](https://pthree.org/2016/07/29/breaking-hmac/)
+Basically, There's a bug in HMAC that if the key is longer than the block size, it's hashed with the HMAC cryptographic hash, then appended with zeros to fit the single block and that causes collisions. Read more about [Breaking HMAC](https://pthree.org/2016/07/29/breaking-hmac/)
 
 
 
