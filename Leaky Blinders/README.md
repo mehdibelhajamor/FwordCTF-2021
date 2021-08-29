@@ -4,6 +4,8 @@
 > Get the flag, by order of the leaky fookin blinders..  
 > `nc 52.149.135.130 4869` 
 
+<br />
+
 ### Files :  
 *leaky_blinders.py* source code :
 ```python
@@ -78,6 +80,8 @@ if __name__ == "__main__":
     challenge = Leaky_Blinders()
     challenge.start()
 ```
+
+<br />
 
 ### Solution : 
 By reading the source code we will see that if it prints the ciphertext this means that a byte in ciphertext in position x is different than the byte in key in the same position.  
