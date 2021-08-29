@@ -8,7 +8,7 @@
 *[procyon.py](https://github.com/MehdiBHA/FwordCTF-2021/blob/main/Procyon/procyon.py)*  
 
 ### Solution : 
-I'm not going through mdetails, you can read this [article](https://kel.bz/post/hnp/) it has a good explanation for the original problem.
+I'm not going through details, you can read this [article](https://kel.bz/post/hnp/) it has a good explanation for the original problem.
 
 
 ***Solver :***
