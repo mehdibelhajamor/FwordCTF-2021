@@ -11,7 +11,7 @@
 
 ### Solution : 
 [Ed25519](https://en.wikipedia.org/wiki/EdDSA) is still compromised if two different messages are signed using the same value for `r`. This is obviously impossible in theory, since it is deterministic. But what if an error occurs during the computation of `Hint(R, pk, m)` and produces a `S'` instead ?  
-That can cause a Fault Attack where you can possibly recover the value `a` by computing :
+This can causes a Fault Attack, where we can possibly recover the value `a` by computing :
 
 ![CodeCogsEqn (2)](https://user-images.githubusercontent.com/62826765/131237348-8b95980d-1677-4616-97f9-349a85e0a901.gif)
 
