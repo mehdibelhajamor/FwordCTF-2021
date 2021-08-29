@@ -84,12 +84,12 @@ if __name__ == "__main__":
 <br />
 
 ### Solution : 
-By reading the source code we will see that if it prints the ciphertext this means that a byte in ciphertext in position x is different than the byte in key in the same position.  
-So for each byte, we can eliminate all 255 possible choices and the byte remaining is the byte in key.
-Bruteforcing.. We got the key and so we can get the flag.
-*solver.py :*
+Reading the source code we will see that : if it prints a ciphertext this means that all bytes in ciphertext are different than the bytes in key in the same positions.  
+So for each byte, by bruteforcing we can eliminate all 255 possible choices and all bytes remaining for each position are the bytes in key.  
+Decrypt with the key and get the flag.
+*solver.py* :
 ```python
+
 ```
 
-
-FLAG : **HZiXCTF{F3rm4t_LiTT!3_7heoRem_f0r_3verY_B483R54}**
+FLAG : **FwordCTF{N3v3r_x0r_w1thout_r4nd0m1s1ng_th3_k3y_0r_m4yb3_s3cur3_y0ur_c0d3}**
