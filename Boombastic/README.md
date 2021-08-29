@@ -9,7 +9,9 @@
 
 ### Solution : 
 Giving a random ticket and by doing some maths we can recover the value of `y` :
-
+```
+y = (s^{2} + r) \times (s^{2} - r)^{-1}  \pmod{p}
+```
 And so the value of `secret` :
 
 
