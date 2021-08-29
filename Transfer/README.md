@@ -17,7 +17,7 @@ This can causes a Fault Attack, where we can possibly recover the value `a` by c
 
 with `h = Hint(R, pk, m)` and `h' = Hint(R', pk, m)`
 
-Here `r` generates as follow `Hint(h[32:] + hmac.new(m, h, digestmod=hashlib.sha512).digest())` and that made it more secure since 
+Here `r` generates as follow `Hint(h[32:] + hmac.new(m, h, digestmod=hashlib.sha512).digest())` and that made it more secure since we will always get a unique value `r` for every signed message. Or is it really secure ?
 
 
 
