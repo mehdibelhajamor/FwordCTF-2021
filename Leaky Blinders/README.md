@@ -8,7 +8,7 @@
 *[leaky_blinders.py](https://github.com/MehdiBHA/FwordCTF-2021/blob/main/Leaky%20Blinders/leaky_blinders.py)*
 
 ### Solution : 
-Reading the source code we will see that when we encrypt; if it prints a ciphertext this means that all bytes in ciphertext are different than the bytes in key in the same positions.  
+Reading the source code we will see that when we encrypt; if it prints a ciphertext this means that all bytes in ciphertext are different than bytes in key in the same positions.  
 So for each byte, by bruteforcing we can eliminate all 255 possible choices and all bytes remaining for each position are the bytes in key.  
 Decrypt with the key and get the FLAG.
 
