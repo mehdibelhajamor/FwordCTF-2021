@@ -14,7 +14,7 @@ Giving a random ticket and by doing some maths we can recover the value of `y` :
 
 And so the value of `secret` :
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=secret%20%3D%20s%5E%7B-1%7D%20%5Ctimes%20%281%20%2B%20y%29%20%20%5Cpmod%7Bp%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="secret = s^{-1} \times (1 + y)  \pmod{p}" width="267" height="22" />
+[img]https://bit.ly/3kBosqG[/img]
 
 Then, we can generate a ticket for the word "Boobmastic" and solve the challenge.
 
