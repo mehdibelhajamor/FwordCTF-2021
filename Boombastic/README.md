@@ -10,11 +10,11 @@
 ### Solution : 
 Giving a random ticket and by doing some maths we can recover the value of `y` :
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=y%20%3D%20%28s%5E%7B2%7D%20%2B%20r%29%20%5Ctimes%20%28s%5E%7B2%7D%20-%20r%29%5E%7B-1%7D%20%20%5Cpmod%7Bp%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="y = (s^{2} + r) \times (s^{2} - r)^{-1}  \pmod{p}" width="278" height="22" />
+![CodeCogsEqn (1)](https://user-images.githubusercontent.com/62826765/131235239-0cf2e8cb-10c5-4845-927b-dcfff79ce604.gif)
 
 And so the value of `secret` :
 
-[img]https://bit.ly/3kBosqG[/img]
+![CodeCogsEqn](https://user-images.githubusercontent.com/62826765/131235230-dcbee216-d720-45ff-b647-8d5f09f6c7d6.gif)
 
 Then, we can generate a ticket for the word "Boobmastic" and solve the challenge.
 
