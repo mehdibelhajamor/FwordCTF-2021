@@ -7,7 +7,7 @@
 <br />
 
 ### Files :  
-*leaky_blinders.py* source code :
+***leaky_blinders.py*** source code :
 ```python
 #!/usr/bin/env python3.8
 from Crypto.Cipher import AES
@@ -84,10 +84,11 @@ if __name__ == "__main__":
 <br />
 
 ### Solution : 
-Reading the source code we will see that : if it prints a ciphertext this means that all bytes in ciphertext are different than the bytes in key in the same positions.  
+Reading the source code we will see that when we encrypt; if it prints a ciphertext this means that all bytes in ciphertext are different than the bytes in key in the same positions.  
 So for each byte, by bruteforcing we can eliminate all 255 possible choices and all bytes remaining for each position are the bytes in key.  
 Decrypt with the key and get the flag.
-*solver.py* :
+
+***solver.py*** :
 ```python
 
 ```
