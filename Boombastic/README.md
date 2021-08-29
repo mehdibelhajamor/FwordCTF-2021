@@ -5,7 +5,7 @@
 > `nc 52.149.135.130 4872` 
 
 ### Files :  
-*[boombastic.py]()*
+*[boombastic.py](https://github.com/MehdiBHA/FwordCTF-2021/blob/main/Boombastic/boombastic.py)*
 
 ### Solution : 
 Giving a random ticket and by doing some maths we can recover the value of `y` :
@@ -18,7 +18,7 @@ And so the value of `secret` :
 
 Then, we can generate a ticket for the word "Boobmastic" and solve the challenge.
 
-*Solver :*
+***Solver :***
 ```python
 from Crypto.Util.number import getStrongPrime, inverse
 from pwn import *
