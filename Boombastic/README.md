@@ -16,7 +16,7 @@ And so, the value of `secret` :
 
 ![CodeCogsEqn](https://user-images.githubusercontent.com/62826765/131235230-dcbee216-d720-45ff-b647-8d5f09f6c7d6.gif)
 
-Then, we can generate a ticket for the word "Boobmastic" and solve the challenge.
+Then, we can generate a ticket for the word "Boobmastic" and watch the movie.
 
 ***Solver :***
 ```python
