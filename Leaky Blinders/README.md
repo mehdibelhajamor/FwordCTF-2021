@@ -12,7 +12,7 @@ Reading the source code we will see that when we encrypt; if it prints a ciphert
 So for each byte, by bruteforcing we can eliminate all 255 possible choices and all bytes remaining for each position are the bytes in key.  
 Decrypt with the key and get the FLAG.
 
-*Solver :*
+***Solver :***
 ```python
 from Crypto.Cipher import AES
 from pwn import *
