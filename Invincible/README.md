@@ -36,7 +36,7 @@ It can only generates 3 point :
 (0 : 1 : 0)
 ```
 Choosing this point T, The first seed will always be either `0` or `89995002874197087156160429731648695860910221822426040658975619972952380673767`.  
-And if we know the first seed, we can know all the 
+And if we know the first seed, we can know all next seeds and so we can compute all 100 key to decrypt all 100 ciphertexts and win the game. 
 
 ***Solver :***
 ```python
