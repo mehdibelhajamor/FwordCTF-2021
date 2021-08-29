@@ -21,7 +21,7 @@ Here `r` generates as follow `Hint(h[32:] + hmac.new(m, h, digestmod=hashlib.sha
 
 Basically, There's a bug in HMAC that if the key is longer than the block size, it's hashed with the HMAC cryptographic hash, then appended with zeros to fit the single block and that causes collisions. Read more about [Breaking HMAC](https://pthree.org/2016/07/29/breaking-hmac/).
 
-So using this property, we can break the Ed25519 using Fault Attack and transfer the money we wants.
+Using this property, we can break the Ed25519 with Fault Attack and transfer the money we wants.
 
 ***Solver :***
 ```python
