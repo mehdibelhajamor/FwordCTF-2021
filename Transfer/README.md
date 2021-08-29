@@ -1,8 +1,7 @@
 # Transfer
 
 ### Description :
-> My friend got access to the National Bank Money Transfer.  
-> He tried to transfer money to his account as much as he wants BUT it's limited.  
+> My friend got access to the National Bank Money Transfer. He tried to transfer money to his account as much as he wants BUT it's limited.  
 > Could you break it ?  
 > `nc 52.149.135.130 4870` 
 
