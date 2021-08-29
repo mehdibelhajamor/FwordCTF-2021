@@ -8,15 +8,21 @@
 *[invincible.py](https://github.com/MehdiBHA/FwordCTF-2021/blob/main/Invincible/invincible.py)*
 
 ### Solution : 
-Giving a random ticket and by doing some maths we can recover the value of `y` :
+We notice that both *Add* and *Multiply* operations are independent of `b`. Also the EllipticCurve class doesn't check for the existance of a given point.  
+Since we have control on a point we can go through the Invalid Curve Attack.
 
-![CodeCogsEqn (1)](https://user-images.githubusercontent.com/62826765/131235239-0cf2e8cb-10c5-4845-927b-dcfff79ce604.gif)
-
-And so the value of `secret` :
-
-![CodeCogsEqn](https://user-images.githubusercontent.com/62826765/131235230-dcbee216-d720-45ff-b647-8d5f09f6c7d6.gif)
-
-Then, we can generate a ticket for the word "Boobmastic" and solve the challenge.
+By modifying `b` we can get another curve that may have an order with a small factor.  
+For exemple, `b = 3` generates a curve with order `115792089210356248762697446949407573529995394580452997270780266901612618829008` that had a small factor 3. So we can generate a point with order 3.  
+Here's a [Sagemath](https://www.sagemath.org/) script :
+```python
+p = 0xffffffff00000001000000000000000000000000ffffffffffffffffffffffff
+a = -0x3
+b = 3
+E = EllipticCurve(GF(p), [a, b])
+G = E.gens()[0]
+P = G*ZZ(E.order()/3)
+print(P)
+```
 
 ***Solver :***
 ```python
