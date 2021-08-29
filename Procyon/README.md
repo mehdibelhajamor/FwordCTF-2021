@@ -8,7 +8,8 @@
 *[procyon.py](https://github.com/MehdiBHA/FwordCTF-2021/blob/main/Procyon/procyon.py)*  
 
 ### Solution : 
-I'm not going through an explanation, you can read this [Paper](https://link.springer.com/content/pdf/10.1007%2F3-540-68697-5_11.pdf) it describes the original problem. And you can also take a look at [Raccoon Attack](https://raccoon-attack.com/)
+I'm not going through an explanation, you can read this [Paper](https://link.springer.com/content/pdf/10.1007%2F3-540-68697-5_11.pdf) it describes the original problem.  
+And you can also take a look at [Raccoon Attack](https://raccoon-attack.com/)
 
 ***Solver :***
 ```python
